@@ -1,0 +1,6 @@
+{
+  "name": "SpeakEasy Lab - AI Speech & Communication Studio",
+  "description": "Master public speaking, impromptu delivery, and presentation poise with real-time AI speech feedback inspired by SpeakEasy Lab.",
+  "requestFramePermissions": ["microphone"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

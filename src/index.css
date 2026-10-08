@@ -1,0 +1,45 @@
+@import "tailwindcss";
+
+@theme {
+  --font-serif: 'Newsreader', Georgia, serif;
+  --font-sans: 'Hanken Grotesk', system-ui, sans-serif;
+  --color-linen: #faf8f5;
+  --color-sand: #f3efe8;
+  --color-sand-hover: #ece6dc;
+  --color-sand-dark: #e5ded5;
+  --color-espresso: #1c1917;
+  --color-silt: #8c7e72;
+  --color-terracotta: #e06c5f;
+  --color-terracotta-hover: #cf5e52;
+}
+
+body {
+  font-family: 'Hanken Grotesk', system-ui, -apple-system, sans-serif;
+  background-color: #faf8f5;
+  color: #1c1917;
+  -webkit-font-smoothing: antialiased;
+}
+
+.font-editorial {
+  font-family: 'Newsreader', Georgia, serif;
+}
+
+.font-ui {
+  font-family: 'Hanken Grotesk', system-ui, sans-serif;
+}
+
+/* Custom scrollbar matching editorial tone */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #faf8f5;
+}
+::-webkit-scrollbar-thumb {
+  background: #d4cbc0;
+  border-radius: 9999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #8c7e72;
+}
